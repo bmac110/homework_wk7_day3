@@ -3,6 +3,7 @@
     <h3>{{country.name}}</h3>
     <p>{{country.capital}}</p>
     <p>{{country.population}}</p>
+    <img :src="country.flag">
 
   </div>
 </template>
