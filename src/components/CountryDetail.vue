@@ -3,14 +3,17 @@
     <h3>{{country.name}}</h3>
     <p>{{country.capital}}</p>
     <p>{{country.population}}</p>
+    <p>{{country.languages[0].name}}</p>
     <img :src="country.flag">
 
   </div>
 </template>
 
+
 <script>
+
 export default {
-  name: "country-detail",
+  // name: "country-detail",
   props: ["country"]
 }
 </script>
